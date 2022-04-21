@@ -62,15 +62,19 @@
 
 // While 4 
 
-let i = 0; 
-let sum = 0;
+// let i = 0; 
+// let sum = 0;
 
-while (i < 101) { 
-    sum = sum + i; 
-    i ++  
-} 
+// while (i < 101) { 
+//     sum = sum + i; 
+//     i ++  
+// } 
 
-alert(sum);
+// alert(sum); 
+
+// Do While 1 
+
+
 
 //scivere un ciclo while che si interrompa quando l'utente scrive 'esci'
 //nella finestra di dialogo 
