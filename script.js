@@ -38,12 +38,12 @@
 
 // While 1
 
-let i = 10;
+// let i = 10;
 
-while (i < 51) {
-    console.log(i);
-    i++;
-} 
+// while (i < 51) {
+//     console.log(i);
+//     i++;
+// } 
 
 // While 2 
 
@@ -121,16 +121,25 @@ while (i < 51) {
 //scivere un ciclo while che si interrompa quando l'utente scrive 'esci'
 //nella finestra di dialogo 
 
-// const exit = 'esci';
+const exit = 'esci'; 
+i = 0;
 
-// while (true) {
-//     const userInput = prompt("Insert input");
+while (true) {
+    i++
+    const userInput = prompt("Insert input");
+    const userInputExit = userInput === exit; 
+    
+    console.log(i + ', ' + userInput + ', ' + "write 'esci' to exit");
 
-//     const userInputExit = userInput === exit;
+    if (userInputExit) {
+        alert("Heading out..."); 
+        console.log(i + ', ' + userInput + ', ' + "exit");
+        break;
+    }  
+} 
 
-//     if (userInputExit) {
-//         alert("Heading out...");
-//         break;
-//     } 
-// }
+// O 
+
+// while (prompt ('scrivi "esci" per uscire dal ciclo')!=='esci'){}
+    
 
