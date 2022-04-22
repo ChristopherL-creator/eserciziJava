@@ -133,7 +133,7 @@ while (true) {
 
     if (userInputExit) {
         alert("Heading out..."); 
-        console.log(i + ', ' + userInput + ', ' + "exit");
+        console.log("exit");
         break;
     }  
 } 
