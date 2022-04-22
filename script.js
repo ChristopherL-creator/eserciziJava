@@ -74,7 +74,45 @@
 
 // Do While 1 
 
+// let i = 10;
 
+// do {
+//     console.log(i);
+//      i = i + 1;
+// } while (i < 51);
+   
+// Do While 2 
+
+// let i = 8;
+
+// do {
+//       const isDisvisiblePerDue = i % 2 === 0; 
+//     if (isDisvisiblePerDue) {
+//         console.log(i);
+//     }  
+//     i = i + 1;
+// } while (i < 129);
+
+// Do While 3 
+
+// let i = 101;
+
+// do {
+//       i = i - 1;
+//     console.log(i);
+// } while (i > 0); 
+
+// Do While 4 
+
+let i = 0; 
+let sum = 0; 
+
+do {
+    sum = sum + i; 
+    i ++;  
+} while (i < 101); 
+
+alert(sum);
 
 //scivere un ciclo while che si interrompa quando l'utente scrive 'esci'
 //nella finestra di dialogo 
